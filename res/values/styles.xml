@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!-- Style for Title Bar -->
+ <style name="WindowTitleBackground">     
+        <item name="android:background">@drawable/x_title_bar_background</item>
+ </style>
+ <!-- Style for Title -->
+ <style name="WindowTitle">
+        <item name="android:textColor">@color/titletextcolor</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">20dip</item>
+        <item name="android:layout_weight">1.3</item>
+        <item name="android:shadowColor">#000000</item>
+	    <item name="android:shadowDx">1</item>
+	    <item name="android:shadowDy">1</item>
+	    <item name="android:shadowRadius">1</item>
+ </style>
+ <!-- Style for Buttons -->
+ <style name="CurrButton">
+ 		<item name="android:layout_width">match_parent</item>
+ 		<item name="android:layout_height">match_parent</item>
+ 		<item name="android:layout_weight">3</item>
+ 		<item name="android:layout_marginTop">9dip</item>
+  		<item name="android:layout_marginBottom">5dip</item>
+ </style>
+ <!-- Style for Wheel Scroller -->
+ <style name="WheelScroller">
+ 		<item name="android:layout_height">160dp</item>
+ 		<item name="android:layout_width">wrap_content</item>
+ 		<item name="android:layout_gravity">center_vertical</item>
+ 		<item name="android:layout_weight">1</item>
+ 		<item name="android:layout_marginTop">14dip</item>
+ 		<item name="android:layout_marginBottom">10dip</item>
+ 		<item name="android:background">@drawable/x_wheel_bg</item>
+ </style>
+</resources>

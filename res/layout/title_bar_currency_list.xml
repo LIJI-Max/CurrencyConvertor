@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="horizontal">
+   <Button android:id="@+id/currencyDelete" 
+  		style="@style/CurrButton"
+  		android:background="@drawable/x_button_currency_delete_selector"
+  		android:onClick="addCurrencyPairFavorite"
+  		android:layout_marginLeft="3dip"
+  		>
+  </Button>
+  <TextView android:id="@+id/currencyFavTitleBar" 
+  			android:text="@string/title_text" 
+  			style="@style/WindowTitle">
+  </TextView>
+  <Button android:id="@+id/currencyAdd" 
+  		style="@style/CurrButton"
+  		android:background="@drawable/x_button_currency_add_selector"
+  		android:onClick="addCurrencyPair"
+  		android:layout_marginRight="3dip">
+  </Button>
+</LinearLayout>

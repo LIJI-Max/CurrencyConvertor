@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, CurrencyConvertor!</string>
+    <string name="app_name">Currency Rates</string>
+    <string name="currency_add">Add</string>
+    <string name="currency_delete">Remove</string>
+     <string-array name="currencies">
+	    <item>ALL</item>
+		<item>DZD</item>
+		<item>ARS</item>
+		<item>AUD</item>
+		<item>BHD</item>
+		<item>BDT</item>
+		<item>BRL</item>
+		<item>GBP</item>
+		<item>CAD</item>
+		<item>CLP</item>
+		<item>CNY</item>
+		<item>COP</item>
+		<item>CRC</item>
+		<item>HRK</item>
+		<item>CZK</item>
+		<item>DKK</item>
+		<item>DOP</item>
+		<item>EGP</item>
+		<item>EUR</item>
+		<item>HKD</item>
+		<item>HUF</item>
+		<item>ISK</item>
+		<item>INR</item>
+		<item>IDR</item>
+		<item>IQD</item>
+		<item>ILS</item>
+		<item>JMD</item>
+		<item>JPY</item>
+		<item>JOD</item>
+		<item>KES</item>
+		<item>KRW</item>
+		<item>KWD</item>
+		<item>MYR</item>
+		<item>MUR</item>
+		<item>MXN</item>
+		<item>MAD</item>
+		<item>NPR</item>
+		<item>NZD</item>
+		<item>NGN</item>
+		<item>NOK</item>
+		<item>OMR</item>
+		<item>PKR</item>
+		<item>PEN</item>
+		<item>PHP</item>
+		<item>PLN</item>
+		<item>QAR</item>
+		<item>RUB</item>
+		<item>SAR</item>
+		<item>SGD</item>
+		<item>ZAR</item>
+		<item>LKR</item>
+		<item>SEK</item>
+		<item>TRY</item>
+		<item>CHF</item>
+		<item>THB</item>
+		<item>TND</item>
+		<item>USD</item>
+		<item>AED</item>
+		<item>UAH</item>
+		<item>VND</item>
+</string-array >
+<string-array name="curr_desc">
+	<item>Albanian Lek </item>
+	<item>Algerian Dinar </item>
+	<item>Argentine Peso </item>
+	<item>Australian Dollar </item>
+	<item>Bahraini Dinar </item>
+	<item>Bangladesh Taka </item>
+	<item>Brazilian Real </item>
+	<item>British Pound </item>
+	<item>Canadian Dollar </item>
+	<item>Chilean Peso </item>
+	<item>Chinese Yuan </item>
+	<item>Colombian Peso </item>
+	<item>Costa Rica Colon</item>
+	<item>Croatian Kuna </item>
+	<item>Czech Koruna </item>
+	<item>Danish Krone </item>
+	<item>Dominican Peso </item>
+	<item>Egyptian Pound </item>
+	<item>Euro  </item>
+	<item>Hong Kong Dollar</item>
+	<item>Hungarian Forint </item>
+	<item>Iceland Krona </item>
+	<item>Indian Rupee </item>
+	<item>Indonesian Rupiah </item>
+	<item>Iraqi Dinar </item>
+	<item>Israeli Shekel </item>
+	<item>Jamaican Dollar </item>
+	<item>Japanese Yen </item>
+	<item>Jordanian Dinar </item>
+	<item>Kenyan Shilling </item>
+	<item>Korean Won </item>
+	<item>Kuwaiti Dinar </item>
+	<item>Malaysian Ringgit </item>
+	<item>Mauritius Rupee </item>
+	<item>Mexican Peso </item>
+	<item>Moroccan Dirham </item>
+	<item>Nepalese Rupee </item>
+	<item>New Zealand Dollar</item>
+	<item>Nigerian Naira </item>
+	<item>Norwegian Krone </item>
+	<item>Omani Rial </item>
+	<item>Pakistani Rupee </item>
+	<item>Peruvian Nuevo Sol</item>
+	<item>Philippine Peso </item>
+	<item>Polish Zloty </item>
+	<item>Qatar Rial </item>
+	<item>Russian Rouble </item>
+	<item>Saudi Arabian Riyal</item>
+	<item>Singapore Dollar </item>
+	<item>South African Rand</item>
+	<item>Sri Lanka Rupee</item>
+	<item>Swedish Krona </item>
+	<item>Turkey Lira </item>
+	<item>Swiss Franc </item>
+	<item>Thai Baht </item>
+	<item>Tunisian Dinar </item>
+	<item>US Dollar </item>
+	<item>UAE Dirham </item>
+	<item>Ukraine Hryvnia </item>
+	<item>Vietnam Dong </item>
+</string-array>
+ <string name="currency_prompt">Select a Currency</string>
+ <string name="title_text">Currency Convertor</string>
+ <string name="fav_list">Favorite Currencies</string>
+ <string name="full_list">All Currencies</string>
+</resources>

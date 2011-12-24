@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="horizontal">
+   <Button android:id="@+id/backToSelectCurr" 
+  		style="@style/CurrButton"
+  		android:background="@drawable/x_button_currency_back_selector"
+  		android:onClick="backToCurrencyList"
+  		android:layout_marginLeft="3dip">
+  </Button>
+  <TextView android:id="@+id/currFavTitleBar" 
+  			android:text="@string/fav_list" 
+  			style="@style/WindowTitle">
+  </TextView>
+  <Button android:id="@+id/setFavour" 
+  		style="@style/CurrButton"
+  		android:background="@drawable/x_button_currency_select_selector"
+  		android:onClick="toFullList"
+  		android:layout_marginRight="3dip">
+  </Button>
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content">
+  <ImageView android:id="@+id/countryflagfull"
+  android:layout_width="80dip"
+  android:layout_height="50dip"
+  android:gravity="center"
+  android:layout_marginLeft="20dip"></ImageView>
+  
+  <TextView android:id="@+id/currencynamefull"
+		  android:layout_width="150dip"
+		  android:layout_height="50dip"
+		  android:gravity="center"
+		  android:textSize="16dip"
+		  android:textColor="@color/black"
+		  android:layout_marginRight="30dip"
+		  
+  ></TextView>
+  <Button android:background="@drawable/x_button_currency_fav_delete" 
+  		android:id="@+id/currencydeleted" 
+  		android:layout_width="20dip" 
+  		android:layout_height="20dip" 
+  		android:gravity="right">
+  </Button>
+  
+</LinearLayout>

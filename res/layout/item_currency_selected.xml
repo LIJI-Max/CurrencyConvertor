@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical"
+  >
+  <LinearLayout
+   xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="horizontal">
+    <Spinner 
+        android:id="@+id/fromCurrency"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_weight ="1"
+        android:drawSelectorOnTop = "true"
+        android:prompt = "@string/currency_prompt">
+    </Spinner>
+    <TextView 
+      android:id="@+id/versus" 
+      android:layout_height="wrap_content"
+      android:layout_width="fill_parent" 
+      android:layout_weight="1.6"
+      android:text=":" android:gravity="center"
+      android:layout_marginTop="25dip"
+      android:textColor="@color/blue"
+      android:shadowColor="@color/black"
+      android:shadowDx="1"
+      android:shadowDy="1"
+      android:shadowRadius="1">
+    </TextView>
+    <Spinner 
+        android:id="@+id/toCurrency"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_weight="1"
+        android:drawSelectorOnTop = "true"
+        android:prompt = "@string/currency_prompt">
+    </Spinner>
+  </LinearLayout>
+   <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="horizontal">
+  <EditText android:id="@+id/fromCurrRate" 
+  			android:inputType="numberDecimal"
+  			android:layout_height="wrap_content" 
+  			android:layout_width="fill_parent" 
+  			android:layout_weight="1"
+  			android:textColor="@color/blue">
+  </EditText>
+  <Button android:id="@+id/swap" 
+  		android:layout_height="fill_parent" 
+  		android:layout_width= "fill_parent"
+  		android:layout_weight="1.6" 
+  		android:layout_marginTop="4dip"
+  		android:layout_marginBottom="4dip"
+  		android:background="@drawable/curr_swap">
+  </Button>
+<EditText android:id="@+id/toCurrRate" 
+		android:inputType="numberDecimal"
+ 		android:layout_height="wrap_content"
+ 		android:layout_width="fill_parent" 
+ 		android:layout_weight="1"
+ 		android:textColor="@color/blue">
+  </EditText>
+    </LinearLayout>
+</LinearLayout>

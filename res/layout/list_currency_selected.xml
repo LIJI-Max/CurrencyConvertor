@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/x_background"
+    >
+<ListView
+android:id="@android:id/list" 
+		android:layout_width="match_parent"
+ 		android:layout_height="wrap_content"
+ 		android:cacheColorHint="#00000000"
+ 		android:focusable="true"
+ 		android:scrollbars="vertical"/>
+ 
+ <TextView android:id="@android:id/empty" 
+ 		android:layout_width="fill_parent"
+ 		android:layout_height="wrap_content" 
+ 		android:text="No Currencies Selected">
+ </TextView>
+</LinearLayout>
+
+ <com.learning.android.currencyconvertor.CurrencySlidingUpPanel
+   android:id="@+id/wheelPanel"
+   android:layout_width="match_parent"
+   android:layout_height="wrap_content"
+   android:orientation="vertical"
+   android:visibility="gone"
+   android:layout_alignParentBottom="true"
+ >
+ <LinearLayout
+ 	android:layout_height="wrap_content"
+ 	android:layout_width="match_parent"
+ 	android:orientation="horizontal"
+ 	android:background="@drawable/x_wheelview_background"
+ 	>
+  <kankan.wheel.widget.WheelView 
+     	android:id="@+id/from_currency_wheel"
+        android:layout_marginLeft="40dp"
+        style="@style/WheelScroller"/>
+	<kankan.wheel.widget.WheelView 
+		android:id="@+id/to_currency_wheel"
+		android:layout_marginRight="40dp"
+		style="@style/WheelScroller"/>
+</LinearLayout>
+<LinearLayout
+	android:layout_height="wrap_content"
+	android:layout_width="match_parent"
+	android:gravity="center"
+	android:background="#DDD"
+	android:orientation="horizontal">
+<Button
+	android:layout_width="75dip"
+	android:layout_height="35dip"
+	android:text="Add"
+	android:layout_marginTop="10dip"
+	android:layout_marginBottom="10dip"
+	android:onClick="selectCurrencyPair"
+		/>
+ <Button
+	android:layout_width="75dip"
+	android:layout_height="35dip"
+	android:text="Cancel"
+	android:layout_marginTop="10dip"
+	android:layout_marginBottom="10dip"
+	android:onClick="cancelCurrencyPair"
+		/>	
+</LinearLayout>
+ </com.learning.android.currencyconvertor.CurrencySlidingUpPanel>
+ 
+ <com.learning.android.currencyconvertor.CurrencySlidingUpPanel
+   android:id="@+id/removeItemPanel"
+   android:layout_width="match_parent"
+   android:layout_height="50dip"
+   android:orientation="vertical"
+   android:visibility="gone"
+   android:layout_alignParentBottom="true"
+   android:background="@drawable/x_remove_panel_background"
+   android:layout_gravity="center"
+ >
+ 
+<!--<TextView-->
+<!--	android:text="Remove"-->
+<!--	style="@style/WindowTitle"-->
+<!--	android:height="40dip"-->
+<!--	android:textColor = "@color/blue"-->
+<!--		/>-->
+<Button
+	android:layout_width="45dip"
+	android:layout_height="35dip"
+	android:layout_marginTop="5dip"
+	android:layout_marginBottom="5dip"
+	android:background="@drawable/x_recycle"
+	android:layout_gravity="center"
+		/>
+ </com.learning.android.currencyconvertor.CurrencySlidingUpPanel>
+</RelativeLayout>
